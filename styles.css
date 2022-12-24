@@ -1,7 +1,7 @@
 body {
   margin: 100px;
   background: #eee;
-  font-family: Verdana, sans-serif;
+  font-family: cursive, sans-serif;
 }
 
 /* Card */
@@ -70,6 +70,26 @@ body {
   z-index: 0;
 }
 
-.right-card h2 {
+.right-card .greeting {
+  text-align: left;
+  font-szie: 1.5em;
+  font-weight: 600;
+}
+
+.right-card h1 {
   color: crimson;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+
+.right-card p {
+  font-size: 1.2em;
+  font-family: mono-space;
+}
+
+.right-card .signature {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-align: right;
+  margin-top: 2em;
 }
