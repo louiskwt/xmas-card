@@ -70,6 +70,11 @@ body {
   z-index: 0;
 }
 
+.closed {
+  opacity: 0;
+  transition: all 6s;
+}
+
 .right-card .greeting {
   text-align: left;
   font-szie: 1.5em;
